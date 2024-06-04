@@ -2,14 +2,14 @@
 <manifest>
         <!-- Remote -->
         <remote name="Singko" fetch="https://github.com/SingkoLab" clone-depth="1" />
-        <remote name="kernel" fetch="https://github.com/nahhk" clone-depth="1" />
 
         <!-- Trees -->
   <project path="device/xiaomi/merlin" name="device_xiaomi_merlin" remote="Singko" revision="pixelbuilds" />
   <project path="vendor/xiaomi/merlin" name="vendor_xiaomi_merlin" remote="Singko" revision="14" />
-  <project path="kernel/xiaomi/mt6768" name="platform_kernel_xiaomi_mt6768" remote="kernel" revision="aosp_14" />
+  <project path="device/xiaomi/merlin-kernel" name="device_xiaomi_merlin-kernel" remote="Singko" revision="14" />
   
         <!-- sepolicy -->
   <project path="hardware/mediatek" name="hardware_mediatek" remote="Singko" revision="14" />
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="Singko" revision="14" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="Singko" revision="lineage-21" />
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="Singko" revision="14" />
 </manifest>
